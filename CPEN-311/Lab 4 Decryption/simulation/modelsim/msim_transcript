@@ -1,0 +1,233 @@
+# Reading C:/altera/13.0.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do rc4_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Sammie\ J/Documents/CPEN\ 311/Lab4/Lab\ 4\ -\ Original {C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/SevenSegmentDisplayDecoder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module SevenSegmentDisplayDecoder
+# 
+# Top level modules:
+# 	SevenSegmentDisplayDecoder
+# vlog -vlog01compat -work work +incdir+C:/Users/Sammie\ J/Documents/CPEN\ 311/Lab4/Lab\ 4\ -\ Original {C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/s_memory.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module s_memory
+# 
+# Top level modules:
+# 	s_memory
+# vlog -vlog01compat -work work +incdir+C:/Users/Sammie\ J/Documents/CPEN\ 311/Lab4/Lab\ 4\ -\ Original {C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/d_memory.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module d_memory
+# 
+# Top level modules:
+# 	d_memory
+# vlog -vlog01compat -work work +incdir+C:/Users/Sammie\ J/Documents/CPEN\ 311/Lab4/Lab\ 4\ -\ Original {C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/e_memory.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module e_memory
+# 
+# Top level modules:
+# 	e_memory
+# vlog -sv -work work +incdir+C:/Users/Sammie\ J/Documents/CPEN\ 311/Lab4/Lab\ 4\ -\ Original {C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/ksa.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ksa
+# 
+# Top level modules:
+# 	ksa
+# vlog -sv -work work +incdir+C:/Users/Sammie\ J/Documents/CPEN\ 311/Lab4/Lab\ 4\ -\ Original {C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fsm_1
+# 
+# Top level modules:
+# 	fsm_1
+# vlog -sv -work work +incdir+C:/Users/Sammie\ J/Documents/CPEN\ 311/Lab4/Lab\ 4\ -\ Original {C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/control_fsm.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control_fsm
+# 
+# Top level modules:
+# 	control_fsm
+# vlog -sv -work work +incdir+C:/Users/Sammie\ J/Documents/CPEN\ 311/Lab4/Lab\ 4\ -\ Original {C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm2.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fsm_2
+# 
+# Top level modules:
+# 	fsm_2
+# vlog -sv -work work +incdir+C:/Users/Sammie\ J/Documents/CPEN\ 311/Lab4/Lab\ 4\ -\ Original {C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm3.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fsm_3
+# 
+# Top level modules:
+# 	fsm_3
+# vlog -sv -work work +incdir+C:/Users/Sammie\ J/Documents/CPEN\ 311/Lab4/Lab\ 4\ -\ Original {C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm4.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fsm_4
+# 
+# Top level modules:
+# 	fsm_4
+# 
+vsim -voptargs=+acc rtl_work.control_fsm
+# vsim -voptargs=+acc rtl_work.control_fsm 
+# Loading sv_std.std
+# Loading rtl_work.control_fsm
+vsim -voptargs=+acc rtl_work.fsm_1
+# vsim -voptargs=+acc rtl_work.fsm_1 
+# Loading sv_std.std
+# Loading rtl_work.fsm_1
+# Loading rtl_work.s_memory
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/s_memory.v(85): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /fsm_1/s_mem
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# Loading rtl_work.e_memory
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/e_memory.v(81): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /fsm_1/e_mem
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# Loading rtl_work.d_memory
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/d_memory.v(85): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /fsm_1/d_mem
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# Error loading design
+vsim -voptargs=+acc rtl_work.s_memory
+# vsim -voptargs=+acc rtl_work.s_memory 
+# Loading rtl_work.s_memory
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/s_memory.v(85): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /s_memory
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# Error loading design
+vsim -voptargs=+acc work.control_fsm
+# vsim -voptargs=+acc work.control_fsm 
+# Loading sv_std.std
+# Loading work.control_fsm
+vsim -voptargs=+acc work.control_fsm
+# vsim -voptargs=+acc work.control_fsm 
+# Loading sv_std.std
+# Loading work.control_fsm
+run
+run -all
+vsim -voptargs=+acc rtl_work.control_fsm
+# vsim -voptargs=+acc rtl_work.control_fsm 
+# Loading sv_std.std
+# Loading rtl_work.control_fsm
+vsim -voptargs=+acc work.d_memory
+# vsim -voptargs=+acc work.d_memory 
+# Loading work.d_memory
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/d_memory.v(85): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /d_memory
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# Error loading design
+vsim -voptargs=+acc rtl_work.ksa
+# vsim -voptargs=+acc rtl_work.ksa 
+# Loading sv_std.std
+# Loading rtl_work.ksa
+# Loading rtl_work.fsm_1
+# Loading rtl_work.s_memory
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/s_memory.v(85): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /ksa/core1/s_mem
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# Loading rtl_work.e_memory
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/e_memory.v(81): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /ksa/core1/e_mem
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# Loading rtl_work.d_memory
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/d_memory.v(85): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /ksa/core1/d_mem
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# Loading rtl_work.fsm_2
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/s_memory.v(85): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /ksa/core2/s_mem
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/e_memory.v(81): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /ksa/core2/e_mem
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/d_memory.v(85): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /ksa/core2/d_mem
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# Loading rtl_work.fsm_3
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/s_memory.v(85): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /ksa/core3/s_mem
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/e_memory.v(81): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /ksa/core3/e_mem
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/d_memory.v(85): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /ksa/core3/d_mem
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# Loading rtl_work.fsm_4
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/s_memory.v(85): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /ksa/core4/s_mem
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/e_memory.v(81): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /ksa/core4/e_mem
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/d_memory.v(85): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /ksa/core4/d_mem
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# Loading rtl_work.control_fsm
+# Loading rtl_work.SevenSegmentDisplayDecoder
+# Error loading design
+vsim -voptargs=+acc rtl_work.s_memory
+# vsim -voptargs=+acc rtl_work.s_memory 
+# Loading rtl_work.s_memory
+# ** Error: (vsim-3033) C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/s_memory.v(85): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /s_memory
+#         Searched libraries:
+#             C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/simulation/modelsim/rtl_work
+# Error loading design
+vsim -voptargs=+acc rtl_work.SevenSegmentDisplayDecoder
+# vsim -voptargs=+acc rtl_work.SevenSegmentDisplayDecoder 
+# Loading rtl_work.SevenSegmentDisplayDecoder
+vsim -voptargs=+acc work.control_fsm
+# vsim -voptargs=+acc work.control_fsm 
+# Loading sv_std.std
+# Loading work.control_fsm
+add wave -position insertpoint  \
+sim:/control_fsm/cracked1 \
+sim:/control_fsm/cracked2 \
+sim:/control_fsm/cracked3 \
+sim:/control_fsm/cracked4 \
+sim:/control_fsm/secret_key \
+sim:/control_fsm/cracked \
+sim:/control_fsm/stop
+force -freeze sim:/control_fsm/cracked1 0 0
+force -freeze sim:/control_fsm/cracked2 1 0
+run

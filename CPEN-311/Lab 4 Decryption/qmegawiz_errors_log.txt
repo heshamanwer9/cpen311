@@ -1,0 +1,25 @@
+
+
+C:/Users/Sammie J/Documents/CPEN 311/Lab4_template_de2/template_de2/s_memory.v
+
+Mar 09 04PM:02:31>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+s_memory.vhd
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
+
+C:/Users/Sammie J/Documents/CPEN 311/Lab4_template_de2/template_de2/s_memory.v
+
+Mar 09 04PM:03:55>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+s_memory.vhd
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?

@@ -1,0 +1,224 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Sammie J\Documents\CPEN 311\Lab4\Lab 4 - Original\simulation\modelsim
+vcontrol_fsm
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+IV3TcF>@]LV1Y1;c8A0_7P1
+VaW3zYQH:8z?_^]Mi5>kBm3
+S1
+Z2 dC:\Users\Sammie J\Documents\CPEN 311\Lab4\Lab 4 - Original\simulation\modelsim
+w1490138866
+8C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/control_fsm.sv
+FC:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/control_fsm.sv
+L0 1
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-sv -work work -O0
+Z5 !s92 -sv -work work {+incdir+C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original} -O0
+!i10b 1
+!s100 9Gg[;UB`YWhI3UB4z?H[i3
+!s105 control_fsm_sv_unit
+!s85 0
+!s108 1490139781.888000
+!s107 C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/control_fsm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original|C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/control_fsm.sv|
+!s101 -O0
+vd_memory
+IRb0h8c@5EB>3c9nH;ZX;73
+VBnzE3?;B4>amWTX>ZYCCI1
+R2
+w1490080427
+8C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/d_memory.v
+FC:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/d_memory.v
+L0 39
+R3
+r1
+31
+Z6 o-vlog01compat -work work -O0
+Z7 !s92 -vlog01compat -work work {+incdir+C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original} -O0
+!i10b 1
+!s100 2Qg33CL?2i8;BkRGAJ:5D0
+!s85 0
+!s108 1490139780.669000
+!s107 C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/d_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original|C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/d_memory.v|
+!s101 -O0
+ve_memory
+ID7nWc0hgZ_:YHPH5_P9jC2
+V6]_gH5B2<5mgiVj[AJPz`2
+R2
+w1490092895
+8C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/e_memory.v
+FC:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/e_memory.v
+L0 39
+R3
+r1
+31
+R6
+R7
+!i10b 1
+!s100 aNaZ`bC0J4Vgoi7S`Nf6m0
+!s85 0
+!s108 1490139781.000000
+!s107 C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/e_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original|C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/e_memory.v|
+!s101 -O0
+vfsm_1
+R1
+IV<OzI:lGoB]`FkC:5;VcX2
+V8W9O]a=7DI?ZYlPF8cNYd1
+S1
+R2
+w1490139362
+8C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm.sv
+FC:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 lm2=O4I_NRAfbS@2LHTnC1
+!s105 mem_fsm_sv_unit
+!s85 0
+!s108 1490139781.585000
+!s107 C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original|C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm.sv|
+!s101 -O0
+vfsm_2
+R1
+IkE2OmhkhBfX@Yzd2W9:R<1
+V5?:ifUz8Y3nUlNeA>6_Ii1
+S1
+R2
+w1490138917
+8C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm2.sv
+FC:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm2.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 MdH0U?Mk[DK7Q>JgH_>d_1
+!s105 mem_fsm2_sv_unit
+!s85 0
+!s108 1490139782.169000
+!s107 C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original|C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm2.sv|
+!s101 -O0
+vfsm_3
+R1
+IkM=g6S[TR17nW0<:@oVdi1
+Ve2_zbCcQVk6ejdB`gfmK:1
+S1
+R2
+w1490139363
+8C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm3.sv
+FC:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm3.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 :UVbTPK=gB0mzG6UJECjB3
+!s105 mem_fsm3_sv_unit
+!s85 0
+!s108 1490139782.411000
+!s107 C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original|C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm3.sv|
+!s101 -O0
+vfsm_4
+R1
+!i10b 1
+!s100 MnNT4k`A8N@=U7gBmoLkz2
+IgeGVVi5B_C_MlbnL>N[ga3
+VNoKjPSE3lb:B2<BDZfZoP1
+!s105 mem_fsm4_sv_unit
+S1
+R2
+w1490139364
+8C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm4.sv
+FC:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm4.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1490139782.684000
+!s107 C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original|C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/mem_fsm4.sv|
+!s101 -O0
+R4
+R5
+vksa
+R1
+IX[AC492Af]14mC^9gUahC0
+VzY1naVLPnL>z47on;?<Mz3
+S1
+R2
+w1490137462
+8C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/ksa.sv
+FC:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/ksa.sv
+L0 2
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 <P9z6Pn][0U^YHWgPDicb3
+!s105 ksa_sv_unit
+!s85 0
+!s108 1490139781.416000
+!s107 C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/ksa.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original|C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/ksa.sv|
+!s101 -O0
+vs_memory
+Ia<4[TlI>?^<;XRkJEUJ_Y0
+VXTAn>DmceZAgf5;`[CCj:0
+R2
+w1489108145
+8C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/s_memory.v
+FC:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/s_memory.v
+L0 39
+R3
+r1
+31
+R6
+R7
+!i10b 1
+!s100 SoWg0HA4<E7R?K]^NQ:XE2
+!s85 0
+!s108 1490139780.451000
+!s107 C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/s_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original|C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/s_memory.v|
+!s101 -O0
+vSevenSegmentDisplayDecoder
+IS5EoM1Wk1cFbGS;Ri?FJh1
+VX6XNnVWSb[:oR`HS0Bmz`0
+R2
+w1295650912
+8C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/SevenSegmentDisplayDecoder.v
+FC:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/SevenSegmentDisplayDecoder.v
+L0 1
+R3
+r1
+31
+R6
+n@seven@segment@display@decoder
+R7
+!i10b 1
+!s100 PDZOl2EEWWclGeBV3jI[X1
+!s85 0
+!s108 1490139780.142000
+!s107 C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/SevenSegmentDisplayDecoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original|C:/Users/Sammie J/Documents/CPEN 311/Lab4/Lab 4 - Original/SevenSegmentDisplayDecoder.v|
+!s101 -O0
