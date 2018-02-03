@@ -1,0 +1,16 @@
+db/
+.metadata/
+output_files/
+*.o
+*.objdump
+*.bak
+*.sopcinfo
+*.sof
+*.qarlog
+*.summary
+*.done
+*.jdi
+*.pin
+*.d
+*.mk
+*.cdf
