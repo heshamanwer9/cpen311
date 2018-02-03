@@ -1,0 +1,95 @@
+module fsm( clk, SW, LEDG, LEDR );
+
+// Input/Outputs
+input clk;
+input SW;
+output LEDG;
+output LEDR;
+
+// Data to memory modules
+reg[7:0] address, data, q; 
+reg[7:0] q_i, q_j;
+byte secret[3];
+int i, j, k; 
+reg wren, filled_flag, swapped_flag; //state flags
+
+// Memory modules
+s_memory s_mem( address, clk, data, wren, q );
+
+// State declarations
+reg[3:0] state;
+
+parameter[3:0] init 			= 4'b1111;
+parameter[3:0] init_write  = 4'b0000;
+parameter[3:0] write			= 4'b1100;
+parameter[3:0] wait1			= 4'b0001;
+parameter[3:0] init_swap	= 4'b0010;
+parameter[3:0] calc_j		= 4'b0011;
+parameter[3:0] wait2			= 4'b0100;
+parameter[3:0] read_j 		= 4'b0101;
+parameter[3:0] write_at_j 	= 4'b0110;
+parameter[3:0] wait3			= 4'b0111;
+parameter[3:0] write_at_i 	= 4'b1000;
+parameter[3:0] wait4			= 4'b1001;
+parameter[3:0] incr 			= 4'b1010;
+parameter[3:0] done 			= 4'b1011; 
+
+// Output states to LEDs
+assign LEDR[7:0] = address;
+assign LEDR[15:8] = q;
+assign LEDG[0] = filled_flag;
+assign LEDG[1] = swapped_flag;
+
+// Set secret keys
+assign secret[0] = 8'b0;
+assign secret[1] = SW[15:8];
+assign secret[2] = SW[7:0];
+
+always @(posedge clk)
+begin
+	
+	case(state) 
+	
+		/* INITIALIZE VARIABLES */
+		init: begin
+			i <= 0;
+			j <= 0;
+			k <= 0;
+			address <= 8'b0;
+			data <= 8'b0;
+			filled_flag <= 1'b0;
+			swapped_flag <= 1'b0; 
+		end
+			
+		/* INITIAL FILL MEMORY ARRAY */
+		init_write: begin
+			address <= i;
+			data <= i;
+			
+			wren <= 1'b1;
+			state <= write;
+		end
+		
+		write: begin
+			if(i > 255) begin
+				filled_flag <= 1'b1;
+				state <= wait1;
+			end
+			else begin
+				i <= i + 1;
+				state <= init_write;
+			end
+		end
+		
+		/* DELAY */
+		/*wait1: 
+			wren <= 1'b0;
+			
+			if(filled_flag) state <= init_swap;
+			else state <= wait1*/
+		default: state <= init;
+	endcase
+end
+
+endmodule
+			

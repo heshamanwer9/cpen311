@@ -1,0 +1,29 @@
+module DDS( clk, rst, mod_bit, ask_out, bpsk_out, sin_out, cos_out, squ_out, saw_out );
+
+input clk, rst, mod_bit;
+output [11:0] ask_out, bpsk_out, sin_out, cos_out, squ_out, saw_out;
+
+wire [11:0] ask_out, bpsk_out, sin_out, cos_out, squ_out, saw_out;
+
+parameter phase_inc_const = 32'd257698038; //Phase increment to generate 3Hz carrier at sampling 50MHz clock
+
+//Waveform_gen instantiation
+waveform_gen waveform(
+	.clk(clk),
+	.reset(1'b1), //async
+	.en(),
+	.phase_inc(phase_inc_const),
+	.sin_out(sin_out),
+	.cos_out(cos_out),
+	.squ_out(squ_out),
+	.saw_out(saw_out)
+);
+
+always@(posedge clk) begin //?
+
+	//ask_out <= mod_bit * sin_out; //worry about this and sync 1hz to 50MHz later
+
+end
+endmodule
+
+	

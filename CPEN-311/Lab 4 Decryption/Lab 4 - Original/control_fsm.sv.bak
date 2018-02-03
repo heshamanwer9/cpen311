@@ -1,0 +1,48 @@
+control_fsm ( clk, LEDG1, LEDG2, LEDG3, LEDG4, LEDR1, LEDR2, LEDR3, LEDR4, secret_key1, secret_key2, secret_key3, secret_key4, 
+					cracked1, cracked2, cracked3, cracked4, LEDG, LEDR, secret_key, cracked );
+					
+input clk, cracked1, cracked2, cracked3, cracked4,  
+input[7:0] LEDG1, LEDG2, LEDG3, LEDG4;
+input[17:0] LEDR1, LEDR2, LEDR3, LEDR4;
+input[23:0] secret_key1, secret_key2, secret_key3, secret_key4;
+output[7:0] LEDG;
+output[17:0] LEDR;
+output[23:0] secret_key;
+output cracked;
+
+always@(*) begin
+	if(cracked1 == 1'b1) begin
+		cracked <= 1'b1;
+		LEDG <= LEDG1;
+		LEDR <= LEDR1; 
+		secret_key <= secret_key1;
+	end
+	
+	else if(cracked2 == 1'b1) begin
+		cracked <= 1'b1;
+		LEDG <= LEDG2;
+		LEDR <= LEDR2; 
+		secret_key <= secret_key2;
+	end
+	
+	else if(cracked3 == 1'b1) begin
+		cracked <= 1'b1;
+		LEDG <= LEDG3;
+		LEDR <= LEDR3; 
+		secret_key <= secret_key3;
+	end
+	
+	else if(cracked4 == 1'b1) begin
+		cracked <= 1'b1;
+		LEDG <= LEDG4;
+		LEDR <= LEDR4; 
+		secret_key <= secret_key4;
+	end
+	
+	else if(LEDR1[0] == 1'b1 && LEDR2[0] == 1'b1 && LEDR3[0] == 1'b1 && LEDR4[0] == 1'b1) begin //fail flags
+		cracked <= 1'b0;
+		LEDR[0] <= 1'b1;
+	end
+end
+
+endmodule

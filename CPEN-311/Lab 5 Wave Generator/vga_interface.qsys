@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system name="$${FILENAME}">
+ <component
+   name="$${FILENAME}"
+   displayName="$${FILENAME}"
+   version="1.0"
+   description=""
+   tags=""
+   categories="System" />
+ <parameter name="bonusData"><![CDATA[bonusData 
+{
+   element $${FILENAME}
+   {
+   }
+   element alt_vip_itc_0
+   {
+      datum _sortIndex
+      {
+         value = "2";
+         type = "int";
+      }
+   }
+   element alt_vip_vfr_0
+   {
+      datum _sortIndex
+      {
+         value = "1";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element alt_vip_vfr_0.avalon_slave
+   {
+      datum baseAddress
+      {
+         value = "0";
+         type = "String";
+      }
+   }
+   element nios_clk
+   {
+      datum _sortIndex
+      {
+         value = "0";
+         type = "int";
+      }
+   }
+}
+]]></parameter>
+ <parameter name="clockCrossingAdapter" value="HANDSHAKE" />
+ <parameter name="device" value="EP2C35F672C6" />
+ <parameter name="deviceFamily" value="Cyclone II" />
+ <parameter name="deviceSpeedGrade" value="6" />
+ <parameter name="fabricMode" value="QSYS" />
+ <parameter name="generateLegacySim" value="false" />
+ <parameter name="generationId" value="0" />
+ <parameter name="globalResetBus" value="false" />
+ <parameter name="hdlLanguage" value="VERILOG" />
+ <parameter name="maxAdditionalLatency" value="1" />
+ <parameter name="projectName">dds_and_nios_lab.qpf</parameter>
+ <parameter name="sopcBorderPoints" value="false" />
+ <parameter name="systemHash" value="1" />
+ <parameter name="timeStamp" value="1489191746220" />
+ <parameter name="useTestBenchNamingPattern" value="false" />
+ <instanceScript></instanceScript>
+ <interface
+   name="alt_vip_itc_0_clocked_video"
+   internal="alt_vip_itc_0.clocked_video"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="alt_vip_vfr_0_interrupt_sender"
+   internal="alt_vip_vfr_0.interrupt_sender"
+   type="interrupt"
+   dir="end" />
+ <interface name="nios_clk" internal="nios_clk.clk_in" type="clock" dir="end" />
+ <interface
+   name="nios_clk_reset"
+   internal="nios_clk.clk_in_reset"
+   type="reset"
+   dir="end" />
+ <interface
+   name="to_nios_2_datamaster"
+   internal="alt_vip_vfr_0.avalon_slave"
+   type="avalon"
+   dir="end" />
+ <interface
+   name="to_sdram"
+   internal="alt_vip_vfr_0.avalon_master"
+   type="avalon"
+   dir="start" />
+ <module kind="alt_vip_itc" version="13.0" enabled="1" name="alt_vip_itc_0">
+  <parameter name="FAMILY" value="Cyclone II" />
+  <parameter name="NUMBER_OF_COLOUR_PLANES" value="3" />
+  <parameter name="COLOUR_PLANES_ARE_IN_PARALLEL" value="1" />
+  <parameter name="BPS" value="8" />
+  <parameter name="INTERLACED" value="0" />
+  <parameter name="H_ACTIVE_PIXELS" value="800" />
+  <parameter name="V_ACTIVE_LINES" value="600" />
+  <parameter name="ACCEPT_COLOURS_IN_SEQ" value="0" />
+  <parameter name="FIFO_DEPTH" value="512" />
+  <parameter name="CLOCKS_ARE_SAME" value="0" />
+  <parameter name="USE_CONTROL" value="0" />
+  <parameter name="NO_OF_MODES" value="1" />
+  <parameter name="THRESHOLD" value="450" />
+  <parameter name="STD_WIDTH" value="1" />
+  <parameter name="GENERATE_SYNC" value="0" />
+  <parameter name="USE_EMBEDDED_SYNCS" value="0" />
+  <parameter name="AP_LINE" value="0" />
+  <parameter name="V_BLANK" value="0" />
+  <parameter name="H_BLANK" value="0" />
+  <parameter name="H_SYNC_LENGTH" value="128" />
+  <parameter name="H_FRONT_PORCH" value="40" />
+  <parameter name="H_BACK_PORCH" value="88" />
+  <parameter name="V_SYNC_LENGTH" value="4" />
+  <parameter name="V_FRONT_PORCH" value="1" />
+  <parameter name="V_BACK_PORCH" value="23" />
+  <parameter name="F_RISING_EDGE" value="0" />
+  <parameter name="F_FALLING_EDGE" value="0" />
+  <parameter name="FIELD0_V_RISING_EDGE" value="0" />
+  <parameter name="FIELD0_V_BLANK" value="0" />
+  <parameter name="FIELD0_V_SYNC_LENGTH" value="0" />
+  <parameter name="FIELD0_V_FRONT_PORCH" value="0" />
+  <parameter name="FIELD0_V_BACK_PORCH" value="0" />
+  <parameter name="ANC_LINE" value="0" />
+  <parameter name="FIELD0_ANC_LINE" value="0" />
+  <parameter name="AUTO_IS_CLK_RST_CLOCK_RATE" value="0" />
+ </module>
+ <module kind="alt_vip_vfr" version="13.0" enabled="1" name="alt_vip_vfr_0">
+  <parameter name="FAMILY" value="Cyclone II" />
+  <parameter name="BITS_PER_PIXEL_PER_COLOR_PLANE" value="8" />
+  <parameter name="NUMBER_OF_CHANNELS_IN_PARALLEL" value="3" />
+  <parameter name="NUMBER_OF_CHANNELS_IN_SEQUENCE" value="1" />
+  <parameter name="MAX_IMAGE_WIDTH" value="800" />
+  <parameter name="MAX_IMAGE_HEIGHT" value="600" />
+  <parameter name="MEM_PORT_WIDTH" value="32" />
+  <parameter name="RMASTER_FIFO_DEPTH" value="64" />
+  <parameter name="RMASTER_BURST_TARGET" value="32" />
+  <parameter name="CLOCKS_ARE_SEPARATE" value="1" />
+  <parameter name="AUTO_CLOCK_RESET_CLOCK_RATE" value="0" />
+  <parameter name="AUTO_CLOCK_MASTER_CLOCK_RATE" value="0" />
+ </module>
+ <module kind="clock_source" version="13.0" enabled="1" name="nios_clk">
+  <parameter name="clockFrequency" value="125000000" />
+  <parameter name="clockFrequencyKnown" value="false" />
+  <parameter name="inputClockFrequency" value="0" />
+  <parameter name="resetSynchronousEdges" value="NONE" />
+ </module>
+ <connection
+   kind="avalon_streaming"
+   version="13.0"
+   start="alt_vip_vfr_0.avalon_streaming_source"
+   end="alt_vip_itc_0.din" />
+ <connection
+   kind="clock"
+   version="13.0"
+   start="nios_clk.clk"
+   end="alt_vip_vfr_0.clock_master" />
+ <connection
+   kind="clock"
+   version="13.0"
+   start="nios_clk.clk"
+   end="alt_vip_vfr_0.clock_reset" />
+ <connection
+   kind="clock"
+   version="13.0"
+   start="nios_clk.clk"
+   end="alt_vip_itc_0.is_clk_rst" />
+ <connection
+   kind="reset"
+   version="13.0"
+   start="nios_clk.clk_reset"
+   end="alt_vip_vfr_0.clock_master_reset" />
+ <connection
+   kind="reset"
+   version="13.0"
+   start="nios_clk.clk_reset"
+   end="alt_vip_vfr_0.clock_reset_reset" />
+ <connection
+   kind="reset"
+   version="13.0"
+   start="nios_clk.clk_reset"
+   end="alt_vip_itc_0.is_clk_rst_reset" />
+ <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />
+ <interconnectRequirement for="$system" name="qsys_mm.maxAdditionalLatency" value="1" />
+</system>

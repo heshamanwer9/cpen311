@@ -1,0 +1,560 @@
+# Reading C:/altera/13.0.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do dds_and_nios_lab_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/SDRAM_PLL.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module SDRAM_PLL
+# 
+# Top level modules:
+# 	SDRAM_PLL
+# vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/sdram1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module sdram1
+# 
+# Top level modules:
+# 	sdram1
+# vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/plot_graph.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module plot_graph
+# 
+# Top level modules:
+# 	plot_graph
+# vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/FFXII_LB_Cursor2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module FFXII_LB_Cursor2
+# 
+# Top level modules:
+# 	FFXII_LB_Cursor2
+# vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/FFXII_LB_Cursor.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module FFXII_LB_Cursor
+# 
+# Top level modules:
+# 	FFXII_LB_Cursor
+# vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/Cursor.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Cursor
+# 
+# Top level modules:
+# 	Cursor
+# vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/hack_ltm_sincronization.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hack_ltm_sincronization
+# 
+# Top level modules:
+# 	hack_ltm_sincronization
+# vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/PS2_ScanCodeReader.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PS2_ScanCodeReader
+# 
+# Top level modules:
+# 	PS2_ScanCodeReader
+# vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/Keyboard_Controller.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Keyboard_Controller
+# 
+# Top level modules:
+# 	Keyboard_Controller
+# vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/lfsr.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lfsr
+# 
+# Top level modules:
+# 	lfsr
+# vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/counter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module signal_generator
+# 
+# Top level modules:
+# 	signal_generator
+# vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/generate_one_shot_pulse.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module generate_one_shot_pulse
+# 
+# Top level modules:
+# 	generate_one_shot_pulse
+# vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/generate_controlled_length_pulse.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module generate_controlled_length_pulse
+# 
+# Top level modules:
+# 	generate_controlled_length_pulse
+# vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/doublesync_no_reset.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module doublesync_no_reset
+# 
+# Top level modules:
+# 	doublesync_no_reset
+# vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/generate_arbitrary_divided_clk32.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Generate_Arbitrary_Divided_Clk32
+# 
+# Top level modules:
+# 	Generate_Arbitrary_Divided_Clk32
+# vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/ScanCodeToEvent.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ScanCodeToEvent
+# 
+# Top level modules:
+# 	ScanCodeToEvent
+# vlib DE2_QSYS
+# vmap DE2_QSYS DE2_QSYS
+# Modifying modelsim.ini
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/DE2_QSYS.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DE2_QSYS
+# 
+# Top level modules:
+# 	DE2_QSYS
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module altera_avalon_st_handshake_clock_crosser
+# 
+# Top level modules:
+# 	altera_avalon_st_handshake_clock_crosser
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_avalon_st_clock_crosser.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module altera_avalon_st_clock_crosser
+# 
+# Top level modules:
+# 	altera_avalon_st_clock_crosser
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_reset_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_avalon_sc_fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_vga.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DE2_QSYS_vga
+# 
+# Top level modules:
+# 	DE2_QSYS_vga
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_vfr.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alt_vipvfr130_vfr
+# 
+# Top level modules:
+# 	alt_vipvfr130_vfr
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_vfr_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alt_vipvfr130_vfr_controller
+# 
+# Top level modules:
+# 	alt_vipvfr130_vfr_controller
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_vfr_control_packet_encoder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alt_vipvfr130_vfr_control_packet_encoder
+# 
+# Top level modules:
+# 	alt_vipvfr130_vfr_control_packet_encoder
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_prc.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alt_vipvfr130_prc
+# 
+# Top level modules:
+# 	alt_vipvfr130_prc
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_prc_core.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alt_vipvfr130_prc_core
+# 
+# Top level modules:
+# 	alt_vipvfr130_prc_core
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_prc_read_master.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alt_vipvfr130_prc_read_master
+# 
+# Top level modules:
+# 	alt_vipvfr130_prc_read_master
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_common_avalon_mm_slave.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alt_vipvfr130_common_avalon_mm_slave
+# 
+# Top level modules:
+# 	alt_vipvfr130_common_avalon_mm_slave
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_common_stream_output.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alt_vipvfr130_common_stream_output
+# 
+# Top level modules:
+# 	alt_vipvfr130_common_stream_output
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_IS2Vid_calculate_mode.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alt_vipitc130_IS2Vid_calculate_mode
+# 
+# Top level modules:
+# 	alt_vipitc130_IS2Vid_calculate_mode
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_IS2Vid_control.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alt_vipitc130_IS2Vid_control
+# 
+# Top level modules:
+# 	alt_vipitc130_IS2Vid_control
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_IS2Vid_statemachine.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alt_vipitc130_IS2Vid_statemachine
+# 
+# Top level modules:
+# 	alt_vipitc130_IS2Vid_statemachine
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alt_vipitc130_common_fifo
+# 
+# Top level modules:
+# 	alt_vipitc130_common_fifo
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_generic_count.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alt_vipitc130_common_generic_count
+# 
+# Top level modules:
+# 	alt_vipitc130_common_generic_count
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_sync.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alt_vipitc130_common_sync
+# 
+# Top level modules:
+# 	alt_vipitc130_common_sync
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_trigger_sync.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alt_vipitc130_common_trigger_sync
+# 
+# Top level modules:
+# 	alt_vipitc130_common_trigger_sync
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_timer.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DE2_QSYS_timer
+# 
+# Top level modules:
+# 	DE2_QSYS_timer
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_sysid_qsys.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DE2_QSYS_sysid_qsys
+# 
+# Top level modules:
+# 	DE2_QSYS_sysid_qsys
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_signal_selector.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DE2_QSYS_signal_selector
+# 
+# Top level modules:
+# 	DE2_QSYS_signal_selector
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_sdram.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DE2_QSYS_sdram_input_efifo_module
+# -- Compiling module DE2_QSYS_sdram
+# 
+# Top level modules:
+# 	DE2_QSYS_sdram
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_mouse_pos.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DE2_QSYS_mouse_pos
+# 
+# Top level modules:
+# 	DE2_QSYS_mouse_pos
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_modulation_selector.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DE2_QSYS_modulation_selector
+# 
+# Top level modules:
+# 	DE2_QSYS_modulation_selector
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_keyboard_keys.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DE2_QSYS_keyboard_keys
+# 
+# Top level modules:
+# 	DE2_QSYS_keyboard_keys
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_key.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DE2_QSYS_key
+# 
+# Top level modules:
+# 	DE2_QSYS_key
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_jtag_uart.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DE2_QSYS_jtag_uart_sim_scfifo_w
+# -- Compiling module DE2_QSYS_jtag_uart_scfifo_w
+# -- Compiling module DE2_QSYS_jtag_uart_sim_scfifo_r
+# -- Compiling module DE2_QSYS_jtag_uart_scfifo_r
+# -- Compiling module DE2_QSYS_jtag_uart
+# 
+# Top level modules:
+# 	DE2_QSYS_jtag_uart
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_div_freq.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DE2_QSYS_div_freq
+# 
+# Top level modules:
+# 	DE2_QSYS_div_freq
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio_sel.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DE2_QSYS_audio_sel
+# 
+# Top level modules:
+# 	DE2_QSYS_audio_sel
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DE2_QSYS_audio
+# 
+# Top level modules:
+# 	DE2_QSYS_audio
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio_fifo_used.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DE2_QSYS_audio_fifo_used
+# 
+# Top level modules:
+# 	DE2_QSYS_audio_fifo_used
+# vlog -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules {C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio_EMPTY.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DE2_QSYS_audio_EMPTY
+# 
+# Top level modules:
+# 	DE2_QSYS_audio_EMPTY
+# vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/dds_and_nios_lab.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dds_and_nios_lab
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(121): (vlog-2892) Net type of 'LEDG' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(122): (vlog-2892) Net type of 'LEDR' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(125): (vlog-2892) Net type of 'KEY' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(128): (vlog-2892) Net type of 'SW' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(131): (vlog-2892) Net type of 'HEX0' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(132): (vlog-2892) Net type of 'HEX1' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(133): (vlog-2892) Net type of 'HEX2' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(134): (vlog-2892) Net type of 'HEX3' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(135): (vlog-2892) Net type of 'HEX4' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(136): (vlog-2892) Net type of 'HEX5' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(137): (vlog-2892) Net type of 'HEX6' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(138): (vlog-2892) Net type of 'HEX7' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(141): (vlog-2892) Net type of 'LCD_DATA' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(164): (vlog-2892) Net type of 'FL_ADDR' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(166): (vlog-2892) Net type of 'FL_DQ' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(184): (vlog-2892) Net type of 'GPIO_0' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(185): (vlog-2892) Net type of 'GPIO_1' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(189): (vlog-2892) Net type of 'SRAM_ADDR' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(191): (vlog-2892) Net type of 'SRAM_DQ' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(199): (vlog-2892) Net type of 'DRAM_ADDR' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(206): (vlog-2892) Net type of 'DRAM_DQ' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(218): (vlog-2892) Net type of 'VGA_R' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(219): (vlog-2892) Net type of 'VGA_G' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(220): (vlog-2892) Net type of 'VGA_B' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(702): (vlog-2892) Net type of 'DATA_AUDIO' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(703): (vlog-2892) Net type of 'WRREQ' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(704): (vlog-2892) Net type of 'WRCLK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(705): (vlog-2892) Net type of 'STOP' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(706): (vlog-2892) Net type of 'PAUSE' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(707): (vlog-2892) Net type of 'DATA_DIV_FREG' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(720): (vlog-2892) Net type of 'CounterX' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(721): (vlog-2892) Net type of 'CounterY' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(728): (vlog-2892) Net type of 'DATA_AUDIO' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(729): (vlog-2892) Net type of 'WRREQ' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(730): (vlog-2892) Net type of 'WRCLK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(731): (vlog-2892) Net type of 'STOP' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(732): (vlog-2892) Net type of 'PAUSE' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(733): (vlog-2892) Net type of 'DATA_DIV_FREG' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(746): (vlog-2892) Net type of 'CounterX' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(747): (vlog-2892) Net type of 'CounterY' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(117): (vlog-2892) Net type of 'CLOCK_50' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(118): (vlog-2892) Net type of 'CLOCK_27' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(148): (vlog-2892) Net type of 'UART_RXD' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(149): (vlog-2892) Net type of 'UART_TXD' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(152): (vlog-2892) Net type of 'AUD_ADCDAT' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(153): (vlog-2892) Net type of 'AUD_ADCLRCK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(154): (vlog-2892) Net type of 'AUD_BCLK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(155): (vlog-2892) Net type of 'AUD_DACDAT' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(156): (vlog-2892) Net type of 'AUD_DACLRCK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(157): (vlog-2892) Net type of 'AUD_XCK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(160): (vlog-2892) Net type of 'FPGA_I2C_SCLK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(161): (vlog-2892) Net type of 'FPGA_I2C_SDAT' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(165): (vlog-2892) Net type of 'FL_CE_N' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(167): (vlog-2892) Net type of 'FL_OE_N' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(168): (vlog-2892) Net type of 'FL_RST_N' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(169): (vlog-2892) Net type of 'FL_WE_N' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(174): (vlog-2892) Net type of 'PS2_CLK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(175): (vlog-2892) Net type of 'PS2_DAT' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(200): (vlog-2892) Net type of 'DRAM_BA_0' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(201): (vlog-2892) Net type of 'DRAM_BA_1' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(202): (vlog-2892) Net type of 'DRAM_CAS_N' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(203): (vlog-2892) Net type of 'DRAM_CKE' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(204): (vlog-2892) Net type of 'DRAM_CLK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(205): (vlog-2892) Net type of 'DRAM_CS_N' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(207): (vlog-2892) Net type of 'DRAM_LDQM' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(208): (vlog-2892) Net type of 'DRAM_UDQM' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(209): (vlog-2892) Net type of 'DRAM_RAS_N' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(210): (vlog-2892) Net type of 'DRAM_WE_N' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(178): (vlog-2892) Net type of 'SD_CLK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(179): (vlog-2892) Net type of 'SD_CMD' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(180): (vlog-2892) Net type of 'SD_DAT' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(181): (vlog-2892) Net type of 'SD_DAT3' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(190): (vlog-2892) Net type of 'SRAM_CE_N' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(192): (vlog-2892) Net type of 'SRAM_LB_N' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(193): (vlog-2892) Net type of 'SRAM_OE_N' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(194): (vlog-2892) Net type of 'SRAM_UB_N' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(195): (vlog-2892) Net type of 'SRAM_WE_N' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(142): (vlog-2892) Net type of 'LCD_EN' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(143): (vlog-2892) Net type of 'LCD_ON' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(144): (vlog-2892) Net type of 'LCD_RS' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(145): (vlog-2892) Net type of 'LCD_RW' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(213): (vlog-2892) Net type of 'VGA_CLK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(214): (vlog-2892) Net type of 'VGA_HS' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(215): (vlog-2892) Net type of 'VGA_VS' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(216): (vlog-2892) Net type of 'VGA_BLANK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(217): (vlog-2892) Net type of 'VGA_SYNC' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(708): (vlog-2892) Net type of 'CLOCK_50' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(709): (vlog-2892) Net type of 'FIFO_FULL' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(710): (vlog-2892) Net type of 'EMPTY' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(711): (vlog-2892) Net type of 'video_clk_40Mhz' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(712): (vlog-2892) Net type of 'AUD_ADCDAT' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(713): (vlog-2892) Net type of 'AUD_ADCLRCK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(714): (vlog-2892) Net type of 'AUD_BCLK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(715): (vlog-2892) Net type of 'AUD_DACDAT' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(716): (vlog-2892) Net type of 'AUD_DACLRCK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(717): (vlog-2892) Net type of 'AUD_XCK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(718): (vlog-2892) Net type of 'FPGA_I2C_SCLK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(719): (vlog-2892) Net type of 'FPGA_I2C_SDAT' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(734): (vlog-2892) Net type of 'CLOCK_50' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(735): (vlog-2892) Net type of 'FIFO_FULL' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(736): (vlog-2892) Net type of 'EMPTY' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(737): (vlog-2892) Net type of 'video_clk_40Mhz' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(738): (vlog-2892) Net type of 'AUD_ADCDAT' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(739): (vlog-2892) Net type of 'AUD_ADCLRCK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(740): (vlog-2892) Net type of 'AUD_BCLK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(741): (vlog-2892) Net type of 'AUD_DACDAT' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(742): (vlog-2892) Net type of 'AUD_DACLRCK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(743): (vlog-2892) Net type of 'AUD_XCK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(744): (vlog-2892) Net type of 'FPGA_I2C_SCLK' must be explicitly declared.
+# 
+# ** Error: C:/CPEN_311/Lab5/dds_and_nios_lab.v(745): (vlog-2892) Net type of 'FPGA_I2C_SDAT' must be explicitly declared.
+# 
+# ** Error: C:/altera/13.0.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./dds_and_nios_lab_run_msim_rtl_verilog.do line 62
+# C:/altera/13.0.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+C:/CPEN_311/Lab5 {C:/CPEN_311/Lab5/dds_and_nios_lab.v}"

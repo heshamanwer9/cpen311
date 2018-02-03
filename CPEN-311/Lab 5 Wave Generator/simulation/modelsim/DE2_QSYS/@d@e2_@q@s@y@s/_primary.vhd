@@ -1,0 +1,46 @@
+library verilog;
+use verilog.vl_types.all;
+entity DE2_QSYS is
+    port(
+        audio2fifo_0_data_divfrec_export: out    vl_logic_vector(31 downto 0);
+        audio2fifo_0_empty_export: in     vl_logic;
+        audio2fifo_0_fifo_full_export: in     vl_logic;
+        audio2fifo_0_fifo_used_export: in     vl_logic_vector(11 downto 0);
+        audio2fifo_0_out_data_audio_export: out    vl_logic_vector(31 downto 0);
+        audio2fifo_0_out_pause_export: out    vl_logic;
+        audio2fifo_0_out_stop_export: out    vl_logic;
+        audio2fifo_0_wrclk_export: out    vl_logic;
+        audio2fifo_0_wrreq_export: out    vl_logic;
+        audio_sel_export: out    vl_logic;
+        clk_clk         : in     vl_logic;
+        div_freq_export : out    vl_logic_vector(31 downto 0);
+        key_external_connection_export: in     vl_logic_vector(3 downto 0);
+        keyboard_keys_export: in     vl_logic_vector(31 downto 0);
+        modulation_selector_export: out    vl_logic_vector(3 downto 0);
+        mouse_pos_export: in     vl_logic_vector(31 downto 0);
+        reset_reset_n   : in     vl_logic;
+        sdram_wire_addr : out    vl_logic_vector(11 downto 0);
+        sdram_wire_ba   : out    vl_logic_vector(1 downto 0);
+        sdram_wire_cas_n: out    vl_logic;
+        sdram_wire_cke  : out    vl_logic;
+        sdram_wire_cs_n : out    vl_logic;
+        sdram_wire_dq   : inout  vl_logic_vector(15 downto 0);
+        sdram_wire_dqm  : out    vl_logic_vector(1 downto 0);
+        sdram_wire_ras_n: out    vl_logic;
+        sdram_wire_we_n : out    vl_logic;
+        signal_selector_export: out    vl_logic_vector(7 downto 0);
+        vga_alt_vip_itc_0_clocked_video_vid_clk: in     vl_logic;
+        vga_alt_vip_itc_0_clocked_video_vid_data: out    vl_logic_vector(23 downto 0);
+        vga_alt_vip_itc_0_clocked_video_underflow: out    vl_logic;
+        vga_alt_vip_itc_0_clocked_video_vid_datavalid: out    vl_logic;
+        vga_alt_vip_itc_0_clocked_video_vid_v_sync: out    vl_logic;
+        vga_alt_vip_itc_0_clocked_video_vid_h_sync: out    vl_logic;
+        vga_alt_vip_itc_0_clocked_video_vid_f: out    vl_logic;
+        vga_alt_vip_itc_0_clocked_video_vid_h: out    vl_logic;
+        vga_alt_vip_itc_0_clocked_video_vid_v: out    vl_logic;
+        vga_vga_clk_clk : out    vl_logic;
+        clk_25_in_clk   : in     vl_logic;
+        clk_40_in_clk   : in     vl_logic;
+        cpu_clk_for_sdram_clk: in     vl_logic
+    );
+end DE2_QSYS;

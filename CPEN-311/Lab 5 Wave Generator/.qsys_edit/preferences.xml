@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="223" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="548" />
+   <clocksource preferredWidth="548" />
+   <frequency preferredWidth="528" />
+  </columns>
+ </clocktable>
+ <library
+   expandedCategories="Library/Microcontroller Peripherals,Library/PLL,Library/Peripherals,Project,Library/Peripherals/Microcontroller Peripherals,Library,Library/Interface Protocols,Library/Qsys Interconnect,Library/Memories and Memory Controllers" />
+ <window width="1920" height="1032" x="-9" y="-9" />
+ <generation path="_PROJECT_NAME_" />
+</preferences>

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Apr 04 18:29:48 2017
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : dds_and_nios_lab
+Top-level Entity Name : dds_and_nios_lab
+Family : Cyclone II
+Total logic elements : 17,419
+    Total combinational functions : 15,096
+    Dedicated logic registers : 8,194
+Total registers : 8194
+Total pins : 353
+Total virtual pins : 0
+Total memory bits : 83,410
+Embedded Multiplier 9-bit elements : 4
+Total PLLs : 1

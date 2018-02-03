@@ -1,0 +1,43 @@
+module display_frequency 
+(
+input  reg [3:1] switch_data
+output reg [3:0] frequency 
+);
+
+always @ *
+
+begin
+	case(switch_data)
+		3'b000
+			begin 
+				frequency = 4'b0587;
+			end
+		3'b001
+			begin
+				frequency = 4'b0523;
+			end
+		3'b010
+			begin	
+				frequency = 4'b0659;
+			end
+		3'b011
+			begin
+				frequency = 4'b0698;
+			end
+		3'b100
+			begin
+				frequency = 4'b0783;
+			end
+		3'b101
+			begin
+				frequency = 4'b0987;
+			end
+		3'b110
+			begin
+				frequency = 4'b0880;
+			end
+		3'b111
+			begin
+				frequency = 4'b1046;
+			end
+end

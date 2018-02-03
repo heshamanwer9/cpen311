@@ -1,0 +1,137 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'PLL1|altpll_component|pll|clk[2]'
+Slack : -7.058
+TNS   : -204.468
+
+Type  : Setup 'freqgen_plots'
+Slack : -3.887
+TNS   : -49.761
+
+Type  : Setup 'CLOCK_50'
+Slack : -0.272
+TNS   : -0.543
+
+Type  : Setup 'SW[1]'
+Slack : 0.163
+TNS   : 0.000
+
+Type  : Setup 'PLL1|altpll_component|pll|clk[0]'
+Slack : 0.658
+TNS   : 0.000
+
+Type  : Setup 'CLK_25MHZ'
+Slack : 27.474
+TNS   : 0.000
+
+Type  : Setup 'hack_ltm_sincronization:hack_ltm_sincronization_inst|line_rdy'
+Slack : 33.641
+TNS   : 0.000
+
+Type  : Setup 'signal_generator:Generate_1Hz_Clock|outclk'
+Slack : 37.708
+TNS   : 0.000
+
+Type  : Hold 'SW[1]'
+Slack : -1.104
+TNS   : -11.892
+
+Type  : Hold 'CLOCK_50'
+Slack : 0.089
+TNS   : 0.000
+
+Type  : Hold 'CLK_25MHZ'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Hold 'PLL1|altpll_component|pll|clk[0]'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Hold 'PLL1|altpll_component|pll|clk[2]'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Hold 'signal_generator:Generate_1Hz_Clock|outclk'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Hold 'freqgen_plots'
+Slack : 0.780
+TNS   : 0.000
+
+Type  : Hold 'hack_ltm_sincronization:hack_ltm_sincronization_inst|line_rdy'
+Slack : 1.472
+TNS   : 0.000
+
+Type  : Recovery 'PLL1|altpll_component|pll|clk[2]'
+Slack : -2.507
+TNS   : -197.255
+
+Type  : Recovery 'PLL1|altpll_component|pll|clk[0]'
+Slack : 3.782
+TNS   : 0.000
+
+Type  : Recovery 'CLOCK_50'
+Slack : 4.893
+TNS   : 0.000
+
+Type  : Recovery 'CLK_25MHZ'
+Slack : 36.614
+TNS   : 0.000
+
+Type  : Removal 'PLL1|altpll_component|pll|clk[2]'
+Slack : 1.028
+TNS   : 0.000
+
+Type  : Removal 'CLK_25MHZ'
+Slack : 1.032
+TNS   : 0.000
+
+Type  : Removal 'CLOCK_50'
+Slack : 1.038
+TNS   : 0.000
+
+Type  : Removal 'PLL1|altpll_component|pll|clk[0]'
+Slack : 2.778
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'PLL1|altpll_component|pll|clk[0]'
+Slack : 1.620
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'CLOCK_50'
+Slack : 7.500
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'PLL1|altpll_component|pll|clk[2]'
+Slack : 10.373
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'CLK_25MHZ'
+Slack : 18.500
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'hack_ltm_sincronization:hack_ltm_sincronization_inst|line_rdy'
+Slack : 18.500
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'signal_generator:Generate_1Hz_Clock|outclk'
+Slack : 18.500
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'SW[1]'
+Slack : 19.500
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'altera_reserved_tck'
+Slack : 37.778
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'freqgen_plots'
+Slack : 497.620
+TNS   : 0.000
+
+------------------------------------------------------------

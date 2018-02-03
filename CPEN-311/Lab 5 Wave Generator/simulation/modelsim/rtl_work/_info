@@ -1,0 +1,381 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\CPEN_311\Lab5\simulation\modelsim
+vCursor
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+IN1Y=X?8^:6H>0Y@DEZIdD3
+Vz`B5ilj6OAJVSa;<A]1MO2
+S1
+Z2 dC:\CPEN_311\Lab5\simulation\modelsim
+Z3 w1488967436
+8C:/CPEN_311/Lab5/Cursor.v
+FC:/CPEN_311/Lab5/Cursor.v
+L0 1
+Z4 OV;L;10.1d;51
+r1
+31
+Z5 o-sv -work work -O0
+Z6 !s92 -sv -work work +incdir+C:/CPEN_311/Lab5 -O0
+n@cursor
+!i10b 1
+!s100 7nLQCajBm4C<A7m`NLDD=0
+!s105 Cursor_v_unit
+!s85 0
+!s108 1490918957.311000
+!s107 C:/CPEN_311/Lab5/Cursor.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/CPEN_311/Lab5|C:/CPEN_311/Lab5/Cursor.v|
+!s101 -O0
+vdoublesync_no_reset
+R1
+INX_oahJeUB6YXMKRZaK>Q2
+VmhIifFFlWJ:bA5]hjGIAo0
+S1
+R2
+w1477441778
+8C:/CPEN_311/Lab5/doublesync_no_reset.v
+FC:/CPEN_311/Lab5/doublesync_no_reset.v
+L0 1
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 S3UCd78=;8`ALMf66cGKD3
+!s105 doublesync_no_reset_v_unit
+!s85 0
+!s108 1490918960.483000
+!s107 C:/CPEN_311/Lab5/doublesync_no_reset.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/CPEN_311/Lab5|C:/CPEN_311/Lab5/doublesync_no_reset.v|
+!s101 -O0
+vFFXII_LB_Cursor
+R1
+Io=[`_WSIRaIMNVeXj42LH3
+V^1TTPilEM:9Z2BTJ9ddTG3
+S1
+R2
+R3
+8C:/CPEN_311/Lab5/FFXII_LB_Cursor.v
+FC:/CPEN_311/Lab5/FFXII_LB_Cursor.v
+L0 1
+R4
+r1
+31
+R5
+R6
+n@f@f@x@i@i_@l@b_@cursor
+!i10b 1
+!s100 ImY=UZHPmdB2DNm?_0W2_2
+!s105 FFXII_LB_Cursor_v_unit
+!s85 0
+!s108 1490918956.693000
+!s107 C:/CPEN_311/Lab5/FFXII_LB_Cursor.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/CPEN_311/Lab5|C:/CPEN_311/Lab5/FFXII_LB_Cursor.v|
+!s101 -O0
+vFFXII_LB_Cursor2
+R1
+I4<ED5j[la0eIH05Vi0dgF2
+V9_=UWhVboB1=8_TA7kOXP3
+S1
+R2
+R3
+8C:/CPEN_311/Lab5/FFXII_LB_Cursor2.v
+FC:/CPEN_311/Lab5/FFXII_LB_Cursor2.v
+L0 1
+R4
+r1
+31
+R5
+R6
+n@f@f@x@i@i_@l@b_@cursor2
+!i10b 1
+!s100 ;09XUeM[Q_i4YSbm<aLnR2
+!s105 FFXII_LB_Cursor2_v_unit
+!s85 0
+!s108 1490918956.195000
+!s107 C:/CPEN_311/Lab5/FFXII_LB_Cursor2.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/CPEN_311/Lab5|C:/CPEN_311/Lab5/FFXII_LB_Cursor2.v|
+!s101 -O0
+vGenerate_Arbitrary_Divided_Clk32
+R1
+IfgdcbOc<1E?aA6SBdNj2`2
+VPLYI=LV87lH5U;DZm;YO01
+S1
+R2
+w1217270720
+8C:/CPEN_311/Lab5/generate_arbitrary_divided_clk32.v
+FC:/CPEN_311/Lab5/generate_arbitrary_divided_clk32.v
+L0 2
+R4
+r1
+31
+R5
+R6
+n@generate_@arbitrary_@divided_@clk32
+!i10b 1
+!s100 Le`^Hc5KRHj2LjYIG^BlY1
+!s105 generate_arbitrary_divided_clk32_v_unit
+!s85 0
+!s108 1490918963.503000
+!s107 C:/CPEN_311/Lab5/generate_arbitrary_divided_clk32.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/CPEN_311/Lab5|C:/CPEN_311/Lab5/generate_arbitrary_divided_clk32.v|
+!s101 -O0
+vgenerate_controlled_length_pulse
+R1
+IH7f1:lEnMoFBNed?]6W@d3
+VXICm<FH[3no6HWOAXMN<S0
+S1
+R2
+w1485569084
+8C:/CPEN_311/Lab5/generate_controlled_length_pulse.v
+FC:/CPEN_311/Lab5/generate_controlled_length_pulse.v
+L0 1
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 QR8Tinzal0>18KlZbDG221
+!s105 generate_controlled_length_pulse_v_unit
+!s85 0
+!s108 1490918960.263000
+!s107 C:/CPEN_311/Lab5/generate_controlled_length_pulse.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/CPEN_311/Lab5|C:/CPEN_311/Lab5/generate_controlled_length_pulse.v|
+!s101 -O0
+vgenerate_one_shot_pulse
+R1
+I>2bDWC23M4zSaemM[1Iml2
+ViHLD2kAoekiVYIb`SQFH^0
+S1
+R2
+w1486353866
+8C:/CPEN_311/Lab5/generate_one_shot_pulse.v
+FC:/CPEN_311/Lab5/generate_one_shot_pulse.v
+L0 1
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 9^Uh@aNB:Z8BcCnf6iN6?0
+!s105 generate_one_shot_pulse_v_unit
+!s85 0
+!s108 1490918959.833000
+!s107 C:/CPEN_311/Lab5/generate_one_shot_pulse.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/CPEN_311/Lab5|C:/CPEN_311/Lab5/generate_one_shot_pulse.v|
+!s101 -O0
+vhack_ltm_sincronization
+R1
+I^WHK1hnW:OI7V92]6I@@V0
+VUd8Z8@fHake5F8VoV]m=B2
+S1
+R2
+w1488969876
+8C:/CPEN_311/Lab5/hack_ltm_sincronization.v
+FC:/CPEN_311/Lab5/hack_ltm_sincronization.v
+L0 22
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 XH;0k1e5CAUngGLZece?I0
+!s105 hack_ltm_sincronization_v_unit
+!s85 0
+!s108 1490918957.630000
+!s107 C:/CPEN_311/Lab5/hack_ltm_sincronization.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/CPEN_311/Lab5|C:/CPEN_311/Lab5/hack_ltm_sincronization.v|
+!s101 -O0
+vKeyboard_Controller
+R1
+Ibl2z[j3UeZ8_5W8`Tc@kK2
+VX<;aYj5S8EjRfAIPnH<W[2
+S1
+R2
+R3
+8C:/CPEN_311/Lab5/Keyboard_Controller.v
+FC:/CPEN_311/Lab5/Keyboard_Controller.v
+L0 9
+R4
+r1
+31
+R5
+R6
+n@keyboard_@controller
+!i10b 1
+!s100 f>=[^LLL>:a<]IB4:ViLS3
+!s105 Keyboard_Controller_v_unit
+!s85 0
+!s108 1490918958.054000
+!s107 C:/CPEN_311/Lab5/Keyboard_Controller.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/CPEN_311/Lab5|C:/CPEN_311/Lab5/Keyboard_Controller.v|
+!s101 -O0
+vlfsr
+R1
+INAM3aEZmI``322MWQob>^1
+VzfFCA0EhL@<CSR1ZNeT:V3
+S1
+R2
+w1490916793
+8C:/CPEN_311/Lab5/lfsr.v
+FC:/CPEN_311/Lab5/lfsr.v
+L0 1
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 `^=oo:8QClo:SEokc<PR[0
+!s105 lfsr_v_unit
+!s85 0
+!s108 1490918958.261000
+!s107 C:/CPEN_311/Lab5/lfsr.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/CPEN_311/Lab5|C:/CPEN_311/Lab5/lfsr.v|
+!s101 -O0
+vplot_graph
+R1
+I6zC0Z:e[4aCPU>@2R860:2
+VUY@87]8Wz07:I<TFZ5[gc0
+S1
+R2
+R3
+8C:/CPEN_311/Lab5/plot_graph.v
+FC:/CPEN_311/Lab5/plot_graph.v
+L0 22
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 U20iKEgE9Mj1??a9c_H4>0
+!s105 plot_graph_v_unit
+!s85 0
+!s108 1490918955.806000
+!s107 C:/CPEN_311/Lab5/plot_graph.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/CPEN_311/Lab5|C:/CPEN_311/Lab5/plot_graph.v|
+!s101 -O0
+vPS2_ScanCodeReader
+R1
+IF5aU7KYNX7>^IbhjS7SRQ3
+VZ73N>[[mT8e4^Ug?GdAJZ2
+S1
+R2
+R3
+8C:/CPEN_311/Lab5/PS2_ScanCodeReader.v
+FC:/CPEN_311/Lab5/PS2_ScanCodeReader.v
+L0 9
+R4
+r1
+31
+R5
+R6
+n@p@s2_@scan@code@reader
+!i10b 1
+!s100 PAlFW<k@lf]7l1m5`z9e@1
+!s105 PS2_ScanCodeReader_v_unit
+!s85 0
+!s108 1490918957.839000
+!s107 C:/CPEN_311/Lab5/PS2_ScanCodeReader.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/CPEN_311/Lab5|C:/CPEN_311/Lab5/PS2_ScanCodeReader.v|
+!s101 -O0
+vScanCodeToEvent
+R1
+!i10b 1
+!s100 AJC9^CiMfQcN=_hK?j;B33
+I<Hzn<85aiY3dDih5oHWhj3
+V4_H<BBIn5TBRgbI@MTCZK0
+!s105 ScanCodeToEvent_v_unit
+S1
+R2
+R3
+8C:/CPEN_311/Lab5/ScanCodeToEvent.v
+FC:/CPEN_311/Lab5/ScanCodeToEvent.v
+L0 12
+R4
+r1
+!s85 0
+31
+!s108 1490918963.773000
+!s107 C:/CPEN_311/Lab5/scan_events.h|C:/CPEN_311/Lab5/ScanCodeToEvent.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/CPEN_311/Lab5|C:/CPEN_311/Lab5/ScanCodeToEvent.v|
+!s101 -O0
+R5
+R6
+n@scan@code@to@event
+vsdram1
+R1
+I`bkWFXK@3n0J?RQ<90giA2
+VEh_iH1]3T]EhG;1Y:=VmD1
+S1
+R2
+w1488967434
+8C:/CPEN_311/Lab5/sdram1.v
+FC:/CPEN_311/Lab5/sdram1.v
+L0 39
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 79OINOU@^8=7j^dL6@agc2
+!s105 sdram1_v_unit
+!s85 0
+!s108 1490918955.563000
+!s107 C:/CPEN_311/Lab5/sdram1.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/CPEN_311/Lab5|C:/CPEN_311/Lab5/sdram1.v|
+!s101 -O0
+vSDRAM_PLL
+R1
+IC3:1Cd@c2n8l6hSYRMS6k3
+VZ[h1`HW2keBcjdG>I^cjS2
+S1
+R2
+w1489300936
+8C:/CPEN_311/Lab5/SDRAM_PLL.v
+FC:/CPEN_311/Lab5/SDRAM_PLL.v
+L0 39
+R4
+r1
+31
+R5
+n@s@d@r@a@m_@p@l@l
+R6
+!i10b 1
+!s100 7XCiilAF<]M@eEgO][E5g1
+!s105 SDRAM_PLL_v_unit
+!s85 0
+!s108 1490918954.763000
+!s107 C:/CPEN_311/Lab5/SDRAM_PLL.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/CPEN_311/Lab5|C:/CPEN_311/Lab5/SDRAM_PLL.v|
+!s101 -O0
+vsignal_generator
+R1
+IV5U=7WebW[lc_dV4P7G3b0
+ViOUmQBO_znO3`R:?;Qh@:1
+S1
+R2
+w1490916381
+8C:/CPEN_311/Lab5/counter.v
+FC:/CPEN_311/Lab5/counter.v
+L0 1
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 Y<_oLgV4MfS?Ag;kCi6?Q2
+!s105 counter_v_unit
+!s85 0
+!s108 1490918958.513000
+!s107 C:/CPEN_311/Lab5/counter.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/CPEN_311/Lab5|C:/CPEN_311/Lab5/counter.v|
+!s101 -O0

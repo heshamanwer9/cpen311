@@ -1,0 +1,972 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\CPEN_311\Lab5\simulation\modelsim
+valt_vipitc130_common_fifo
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 IjI5n?O[d6_C@lNf4<NjkH3
+Z3 VKYCj@Y4[bNShB6GHA9RUG3
+S1
+Z4 dC:\CPEN_311\Lab5\simulation\modelsim
+Z5 w1489310134
+Z6 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_fifo.v
+Z7 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_fifo.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 o-sv -work DE2_QSYS -O0
+Z10 !s92 -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules -O0
+Z11 !s100 GRlFAZF=[_<OP_3Bj7JkJ0
+Z12 !s105 alt_vipitc130_common_fifo_v_unit
+Z13 !s108 1490918972.083000
+Z14 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_fifo.v|
+Z15 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_fifo.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valt_vipitc130_common_generic_count
+R1
+Z16 IJh_WNbgo08jV`fQOh6CBI2
+Z17 V_5_Cf;VYBKImGSSjEnF?>3
+S1
+R4
+R5
+Z18 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_generic_count.v
+Z19 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_generic_count.v
+L0 1
+R8
+r1
+31
+R9
+R10
+Z20 !s100 o=03Nn6OSEY9FW41zh9=:3
+Z21 !s105 alt_vipitc130_common_generic_count_v_unit
+Z22 !s108 1490918972.347000
+Z23 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_generic_count.v|
+Z24 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_generic_count.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valt_vipitc130_common_sync
+R1
+Z25 IJ9Jl[FHOj<Pdhc2nYSCOF3
+Z26 VbkZ>angQo]BfZWb9RWS=^3
+S1
+R4
+R5
+Z27 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_sync.v
+Z28 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_sync.v
+L0 1
+R8
+r1
+31
+R9
+R10
+Z29 !s100 8GLWNaU9lHU<e4Y9QAmn10
+Z30 !s105 alt_vipitc130_common_sync_v_unit
+Z31 !s108 1490918972.559000
+Z32 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_sync.v|
+Z33 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_sync.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valt_vipitc130_common_trigger_sync
+R1
+Z34 I@T:`S0^VWmMfO8iA?>]6k3
+Z35 V1Z?cT40kJkU09f6Q@A4`:0
+S1
+R4
+R5
+Z36 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_trigger_sync.v
+Z37 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_trigger_sync.v
+L0 1
+R8
+r1
+31
+R9
+R10
+Z38 !s100 ==X0`j8YP_nmJ2j8120fS0
+Z39 !s105 alt_vipitc130_common_trigger_sync_v_unit
+Z40 !s108 1490918972.786000
+Z41 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_trigger_sync.v|
+Z42 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_common_trigger_sync.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valt_vipitc130_IS2Vid_calculate_mode
+R1
+Z43 I5f0WTAEQi[IA?XOR7a>Kn3
+Z44 V@2N3V_L0i]O=Z`fcBKCW[2
+S1
+R4
+R5
+Z45 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_IS2Vid_calculate_mode.v
+Z46 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_IS2Vid_calculate_mode.v
+L0 1
+R8
+r1
+31
+R9
+R10
+Z47 nalt_vipitc130_@i@s2@vid_calculate_mode
+Z48 !s100 XV:He_2_>ndlBP<fcC;QG0
+Z49 !s105 alt_vipitc130_IS2Vid_calculate_mode_v_unit
+Z50 !s108 1490918970.885000
+Z51 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_IS2Vid_calculate_mode.v|
+Z52 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_IS2Vid_calculate_mode.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valt_vipitc130_IS2Vid_control
+R1
+Z53 I6O6L2:EgRN^kfmNilUYBV0
+Z54 VXzoT6@H7UEgl:AM;<Vl0m3
+S1
+R4
+R5
+Z55 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_IS2Vid_control.v
+Z56 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_IS2Vid_control.v
+L0 1
+R8
+r1
+31
+R9
+R10
+Z57 nalt_vipitc130_@i@s2@vid_control
+Z58 !s100 [:N6cT;GMM?`l^7HR7HaO2
+Z59 !s105 alt_vipitc130_IS2Vid_control_v_unit
+Z60 !s108 1490918971.540000
+Z61 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_IS2Vid_control.v|
+Z62 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_IS2Vid_control.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valt_vipitc130_IS2Vid_statemachine
+R1
+Z63 IoK>Aa:2^eAV5Wj30`^`Pl1
+Z64 VafSaX3okWP84`=QB]@Z^Q1
+S1
+R4
+R5
+Z65 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_IS2Vid_statemachine.v
+Z66 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_IS2Vid_statemachine.v
+L0 1
+R8
+r1
+31
+R9
+R10
+Z67 nalt_vipitc130_@i@s2@vid_statemachine
+Z68 !s100 z`F;`g87@;IMSM]_zeJNj2
+Z69 !s105 alt_vipitc130_IS2Vid_statemachine_v_unit
+Z70 !s108 1490918971.800000
+Z71 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_IS2Vid_statemachine.v|
+Z72 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipitc130_IS2Vid_statemachine.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valt_vipvfr130_common_avalon_mm_slave
+R1
+Z73 IO@TL8YClc@bFL_mieDbAF3
+Z74 VQKQ@CiN[bQocJbRlDQC4K3
+S1
+R4
+Z75 w1489310138
+Z76 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_common_avalon_mm_slave.v
+Z77 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_common_avalon_mm_slave.v
+L0 1
+R8
+r1
+31
+R9
+R10
+Z78 !s100 b5j9V?YG0KhfKQaQ@3bg53
+Z79 !s105 alt_vipvfr130_common_avalon_mm_slave_v_unit
+Z80 !s108 1490918969.593000
+Z81 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_common_avalon_mm_slave.v|
+Z82 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_common_avalon_mm_slave.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valt_vipvfr130_common_stream_output
+R1
+Z83 IZUNf=hIW8]g;ig^n<a;m02
+Z84 VaJAi>7B8fW2eYIFS3hdB93
+S1
+R4
+R75
+Z85 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_common_stream_output.v
+Z86 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_common_stream_output.v
+L0 1
+R8
+r1
+31
+R9
+R10
+Z87 !s100 G:o^hHDDUC_A:jbgOUbNj1
+Z88 !s105 alt_vipvfr130_common_stream_output_v_unit
+Z89 !s108 1490918970.500000
+Z90 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_common_stream_output.v|
+Z91 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_common_stream_output.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valt_vipvfr130_prc
+R1
+Z92 IKcmY^jC;QU<[Z38cmAgUK1
+Z93 VNPInodWz4ZoNQO@zJL<P=2
+S1
+R4
+R75
+Z94 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_prc.v
+Z95 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_prc.v
+L0 2
+R8
+r1
+31
+R9
+R10
+Z96 !s100 0bm1mkWKL=oK^AaY<^Lln0
+Z97 !s105 alt_vipvfr130_prc_v_unit
+Z98 !s108 1490918967.566000
+Z99 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_prc.v|
+Z100 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_prc.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valt_vipvfr130_prc_core
+R1
+Z101 IYnEc;ed5@E4T10[eC6Ej@2
+Z102 V4ThEaj]Y_ENjPEK<A]l]N1
+S1
+R4
+R75
+Z103 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_prc_core.v
+Z104 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_prc_core.v
+L0 3
+R8
+r1
+31
+R9
+R10
+Z105 !s100 Rz`nnMRMR]B1DSL9M7lT52
+Z106 !s105 alt_vipvfr130_prc_core_v_unit
+Z107 !s108 1490918968.107000
+Z108 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_prc_core.v|
+Z109 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_prc_core.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valt_vipvfr130_prc_read_master
+R1
+Z110 IZGYm;X96K1fj1O?[@VWKn0
+Z111 V6J;AK531kj3KUV`ELGoa33
+S1
+R4
+R75
+Z112 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_prc_read_master.v
+Z113 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_prc_read_master.v
+L0 1
+R8
+r1
+31
+R9
+R10
+Z114 !s100 <z>F_ALY11On?<4gXl<5A0
+Z115 !s105 alt_vipvfr130_prc_read_master_v_unit
+Z116 !s108 1490918968.920000
+Z117 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_prc_read_master.v|
+Z118 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_prc_read_master.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valt_vipvfr130_vfr
+R1
+Z119 I7a5I00okCVZ3SPVO2n;4;0
+Z120 VKdF7?[J_obOh3LGNMZVg40
+S1
+R4
+R75
+Z121 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_vfr.v
+Z122 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_vfr.v
+L0 1
+R8
+r1
+31
+R9
+R10
+Z123 !s100 9M;`PYh1]Ei?faFPjHoKl1
+Z124 !s105 alt_vipvfr130_vfr_v_unit
+Z125 !s108 1490918966.549000
+Z126 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_vfr.v|
+Z127 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_vfr.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valt_vipvfr130_vfr_control_packet_encoder
+R1
+Z128 IE0Hgl;h5TId3c9MKBjeiC0
+Z129 VX9PJR^f4>0IKU^NI=zSE`2
+S1
+R4
+R75
+Z130 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_vfr_control_packet_encoder.v
+Z131 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_vfr_control_packet_encoder.v
+L0 1
+R8
+r1
+31
+R9
+R10
+Z132 !s100 j8?7_24i:=a2gm:1J1hGG2
+Z133 !s105 alt_vipvfr130_vfr_control_packet_encoder_v_unit
+Z134 !s108 1490918967.112000
+Z135 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_vfr_control_packet_encoder.v|
+Z136 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_vfr_control_packet_encoder.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valt_vipvfr130_vfr_controller
+R1
+Z137 I@c]]Zj^ZeWl?fnOZ@QQF^1
+Z138 VQdU326io@caT2@L>TJUVn1
+S1
+R4
+R75
+Z139 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_vfr_controller.v
+Z140 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_vfr_controller.v
+L0 1
+R8
+r1
+31
+R9
+R10
+Z141 !s100 Mk4cR_7SicPi[5i?f5Iih2
+Z142 !s105 alt_vipvfr130_vfr_controller_v_unit
+Z143 !s108 1490918966.925000
+Z144 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_vfr_controller.v|
+Z145 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/alt_vipvfr130_vfr_controller.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valtera_avalon_sc_fifo
+R1
+Z146 I[3:[6NhnG5Q:kZ;bfYFzO1
+Z147 VjOzUMS5nAQIa6?lLKEfID0
+S1
+R4
+Z148 w1489310130
+Z149 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_avalon_sc_fifo.v
+Z150 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_avalon_sc_fifo.v
+L0 21
+R8
+r1
+31
+R9
+R10
+Z151 !s100 0OB<1ejh3nCoabePR7=Kj2
+Z152 !s105 altera_avalon_sc_fifo_v_unit
+Z153 !s108 1490918966.006000
+Z154 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_avalon_sc_fifo.v|
+Z155 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valtera_avalon_st_clock_crosser
+R1
+Z156 Ij>_C]2U0R7C?BNf@DUIPP3
+Z157 V0e:lkDY0^f=mT6IM[:_5b3
+S1
+R4
+R148
+Z158 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_avalon_st_clock_crosser.v
+Z159 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_avalon_st_clock_crosser.v
+L0 22
+R8
+r1
+31
+R9
+R10
+Z160 !s100 P@A87QEWm3ee5:ncYL0Se1
+Z161 !s105 altera_avalon_st_clock_crosser_v_unit
+Z162 !s108 1490918965.052000
+Z163 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+Z164 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valtera_avalon_st_handshake_clock_crosser
+R1
+Z165 IZ84Q[_amh@1Q7`P4c<_[60
+Z166 VYDTFiCWV0RkTigPZ<4iW90
+S1
+R4
+R148
+Z167 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+Z168 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+L0 24
+R8
+r1
+31
+R9
+Z169 !s100 R=R]44:e[eJXL?HQQAAJB0
+Z170 !s105 altera_avalon_st_handshake_clock_crosser_v_unit
+Z171 !s108 1490918964.850000
+Z172 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+Z173 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+valtera_reset_controller
+R1
+Z174 I76hk4Cj1Hii[ElHVQa[6m1
+Z175 VBWWT<i0A@QcN4KE]hBS<V0
+S1
+R4
+R148
+Z176 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_reset_controller.v
+Z177 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_reset_controller.v
+L0 29
+R8
+r1
+31
+R9
+R10
+Z178 !s100 CkFY;__CZoP9YXza]hnPe1
+Z179 !s105 altera_reset_controller_v_unit
+Z180 !s108 1490918965.243000
+Z181 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_reset_controller.v|
+Z182 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_reset_controller.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valtera_reset_synchronizer
+R1
+Z183 I[@2``<B^D<L3N<?NRFC4Z0
+Z184 V3CjoOZCIEdzCJgPn8]D7`2
+S1
+R4
+R148
+Z185 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_reset_synchronizer.v
+Z186 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_reset_synchronizer.v
+L0 24
+R8
+r1
+31
+R9
+R10
+Z187 !s100 X3Ijf0Z8a_WFNIQMhe4c[3
+Z188 !s105 altera_reset_synchronizer_v_unit
+Z189 !s108 1490918965.729000
+Z190 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_reset_synchronizer.v|
+Z191 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/altera_reset_synchronizer.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS
+R1
+Z192 IC=1Y>n`m>iMQ9hibN;dZ60
+Z193 VgJ1Q4Z5iO2ZSLmUc<:jLY2
+S1
+R4
+Z194 w1489310116
+Z195 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/DE2_QSYS.v
+Z196 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/DE2_QSYS.v
+L0 6
+R8
+r1
+31
+R9
+Z197 n@d@e2_@q@s@y@s
+Z198 !s100 ``H7mjLDiFPSCJe0TbLHD3
+Z199 !s105 DE2_QSYS_v_unit
+Z200 !s108 1490918964.212000
+Z201 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/DE2_QSYS.v|
+Z202 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/DE2_QSYS.v|
+Z203 !s92 -sv -work DE2_QSYS +incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis -O0
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_audio
+R1
+Z204 I7lHhD7da^C9GWg`?f6SXk2
+Z205 V[9cXHTAJ?I<:EdEoW[UNG1
+S1
+R4
+Z206 w1489310118
+Z207 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio.v
+Z208 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio.v
+L0 6
+R8
+r1
+31
+R9
+R10
+Z209 n@d@e2_@q@s@y@s_audio
+Z210 !s100 a7=830iio?BNQ@=`@L`5B2
+Z211 !s105 DE2_QSYS_audio_v_unit
+Z212 !s108 1490918977.046000
+Z213 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio.v|
+Z214 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_audio_EMPTY
+R1
+!i10b 1
+!s100 >8abG3i8Pi_3hEaUjB6^G3
+IHAo;4Bla]elKgae8oeGC71
+V@IbSi>CR3IdF@gFG4i<<23
+!s105 DE2_QSYS_audio_EMPTY_v_unit
+S1
+R4
+R148
+8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio_EMPTY.v
+FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio_EMPTY.v
+L0 21
+R8
+r1
+!s85 0
+31
+!s108 1490918977.511000
+!s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio_EMPTY.v|
+!s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio_EMPTY.v|
+!s101 -O0
+R9
+R10
+n@d@e2_@q@s@y@s_audio_@e@m@p@t@y
+vDE2_QSYS_audio_fifo_used
+R1
+Z215 IS488XANPJ=cNK_X1JbeAS3
+Z216 VS;0[gc9igjCia>]5nPOZl0
+S1
+R4
+R148
+Z217 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio_fifo_used.v
+Z218 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio_fifo_used.v
+L0 21
+R8
+r1
+31
+R9
+R10
+Z219 n@d@e2_@q@s@y@s_audio_fifo_used
+!i10b 1
+Z220 !s100 DG[N5MfB6bmU93]k5o[FC2
+Z221 !s105 DE2_QSYS_audio_fifo_used_v_unit
+!s85 0
+Z222 !s108 1490918977.241000
+Z223 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio_fifo_used.v|
+Z224 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio_fifo_used.v|
+!s101 -O0
+vDE2_QSYS_audio_sel
+R1
+Z225 Iak]ZP01VX_Yl0]1<Ml_P`0
+Z226 V8YAOSYzz>B?U3CRP9D`HZ2
+S1
+R4
+R206
+Z227 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio_sel.v
+Z228 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio_sel.v
+L0 21
+R8
+r1
+31
+R9
+R10
+Z229 n@d@e2_@q@s@y@s_audio_sel
+Z230 !s100 ^?ILG05`fAV@a;G?05KD41
+Z231 !s105 DE2_QSYS_audio_sel_v_unit
+Z232 !s108 1490918976.813000
+Z233 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio_sel.v|
+Z234 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_audio_sel.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_div_freq
+R1
+Z235 I[6R`F:el?0AUXCe?eheoL1
+Z236 Vi[eEJIZHmUbjcl[Eo^O@O2
+S1
+R4
+Z237 w1489310128
+Z238 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_div_freq.v
+Z239 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_div_freq.v
+L0 21
+R8
+r1
+31
+R9
+R10
+Z240 n@d@e2_@q@s@y@s_div_freq
+Z241 !s100 44b4A=Tbz:[UO>JOZoWbF0
+Z242 !s105 DE2_QSYS_div_freq_v_unit
+Z243 !s108 1490918976.448000
+Z244 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_div_freq.v|
+Z245 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_div_freq.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_jtag_uart
+R1
+Z246 Id5[62loSTjT]RYHTTT;cO0
+Z247 VEJgj51VR8MEZJ[[;EURT]1
+Z248 !s105 DE2_QSYS_jtag_uart_v_unit
+S1
+R4
+R237
+Z249 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_jtag_uart.v
+Z250 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_jtag_uart.v
+Z251 L0 327
+R8
+r1
+31
+Z252 !s108 1490918975.797000
+Z253 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_jtag_uart.v|
+Z254 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_jtag_uart.v|
+R9
+R10
+Z255 n@d@e2_@q@s@y@s_jtag_uart
+Z256 !s100 F[GOY>P55aj[^Egc9^ZVJ1
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_jtag_uart_scfifo_r
+R1
+Z257 IcA4@F0BbPS]`VWag8OCZ22
+Z258 VNR=4T>Z9EkQICNbjB57k20
+R248
+S1
+R4
+R237
+R249
+R250
+Z259 L0 240
+R8
+r1
+31
+R252
+R253
+R254
+R9
+R10
+Z260 n@d@e2_@q@s@y@s_jtag_uart_scfifo_r
+Z261 !s100 4:;;k@8b_029E__Joaa0b1
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_jtag_uart_scfifo_w
+R1
+Z262 I=D?246P7E<i<W<0z:5jTA2
+Z263 VlI^^JBRlIQCUZX@?RC@Z^1
+R248
+S1
+R4
+R237
+R249
+R250
+L0 77
+R8
+r1
+31
+R252
+R253
+R254
+R9
+R10
+Z264 n@d@e2_@q@s@y@s_jtag_uart_scfifo_w
+Z265 !s100 =;IDKRah1o3:m6RXX`n773
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_jtag_uart_sim_scfifo_r
+R1
+Z266 ICaVI:l:LmR>4UT[jfW]1o1
+Z267 V2[YPU`l<;SX[K]8EO>Bb>3
+R248
+S1
+R4
+R237
+R249
+R250
+Z268 L0 162
+R8
+r1
+31
+R252
+R253
+R254
+R9
+R10
+Z269 n@d@e2_@q@s@y@s_jtag_uart_sim_scfifo_r
+Z270 !s100 z<e:j2mH4fnBVNN?iTh<00
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_jtag_uart_sim_scfifo_w
+R1
+Z271 I6`E`Vc2MQ`8e^eYS30KVg3
+Z272 VcT_DQU2T_[F_Pi2`>5ckk2
+R248
+S1
+R4
+R237
+R249
+R250
+L0 21
+R8
+r1
+31
+R252
+R253
+R254
+R9
+R10
+Z273 n@d@e2_@q@s@y@s_jtag_uart_sim_scfifo_w
+Z274 !s100 ?aTP64XBKc0gng4Ae_;=R0
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_key
+R1
+Z275 IWF1MfPB95e>BLeHT10H3J3
+Z276 VfbdI9`_XzYTP[`]f3MH>a0
+S1
+R4
+R237
+Z277 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_key.v
+Z278 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_key.v
+L0 21
+R8
+r1
+31
+R9
+R10
+Z279 n@d@e2_@q@s@y@s_key
+Z280 !s100 >;8koaeRHS^D<K_2@VLU?1
+Z281 !s105 DE2_QSYS_key_v_unit
+Z282 !s108 1490918975.472000
+Z283 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_key.v|
+Z284 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_key.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_keyboard_keys
+R1
+Z285 IC8FRRT`A>SQaN0fW@ebnF0
+Z286 VBm`:1=MfoO@o57N<gcGM33
+S1
+R4
+R237
+Z287 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_keyboard_keys.v
+Z288 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_keyboard_keys.v
+L0 21
+R8
+r1
+31
+R9
+R10
+Z289 n@d@e2_@q@s@y@s_keyboard_keys
+Z290 !s100 O[Rm7P4J3dJ8HAP47FeHd3
+Z291 !s105 DE2_QSYS_keyboard_keys_v_unit
+Z292 !s108 1490918975.198000
+Z293 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_keyboard_keys.v|
+Z294 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_keyboard_keys.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_modulation_selector
+R1
+Z295 I6:=ec13G^L`ommenYzNE91
+Z296 VHG2EWCKi<TjAC>mP8ERM=2
+S1
+R4
+R237
+Z297 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_modulation_selector.v
+Z298 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_modulation_selector.v
+L0 21
+R8
+r1
+31
+R9
+R10
+Z299 n@d@e2_@q@s@y@s_modulation_selector
+Z300 !s100 kDV^2UE`MjIBJ6g2OaQko1
+Z301 !s105 DE2_QSYS_modulation_selector_v_unit
+Z302 !s108 1490918974.798000
+Z303 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_modulation_selector.v|
+Z304 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_modulation_selector.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_mouse_pos
+R1
+Z305 IVJB5Sl=]:?dJlfkERGT8M0
+Z306 V9_nLhMj3iGPOP59IAZh=z3
+S1
+R4
+R237
+Z307 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_mouse_pos.v
+Z308 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_mouse_pos.v
+L0 21
+R8
+r1
+31
+R9
+R10
+Z309 n@d@e2_@q@s@y@s_mouse_pos
+Z310 !s100 =hF14SX9d3ziRfcF9Z;Ym1
+Z311 !s105 DE2_QSYS_mouse_pos_v_unit
+Z312 !s108 1490918974.595000
+Z313 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_mouse_pos.v|
+Z314 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_mouse_pos.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_sdram
+R1
+Z315 II6=AbB?oDLk:?KeTNmiNV0
+Z316 V3g]^2[SPJ@@UP8S<5W[0=2
+Z317 !s105 DE2_QSYS_sdram_v_unit
+S1
+R4
+R237
+Z318 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_sdram.v
+Z319 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_sdram.v
+Z320 L0 158
+R8
+r1
+31
+Z321 !s108 1490918974.173000
+Z322 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_sdram.v|
+Z323 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_sdram.v|
+R9
+R10
+Z324 n@d@e2_@q@s@y@s_sdram
+Z325 !s100 UWC7oWzD<MgYVY10^;o@X2
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_sdram_input_efifo_module
+R1
+Z326 I=;Log6dHCz4NCS5on<6Hj0
+Z327 V`gZhj49Bh`VQ3ohXNDm5H1
+R317
+S1
+R4
+R237
+R318
+R319
+L0 21
+R8
+r1
+31
+R321
+R322
+R323
+R9
+R10
+Z328 n@d@e2_@q@s@y@s_sdram_input_efifo_module
+Z329 !s100 ^5zzEolB_FoEb1i8`ddmK0
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_signal_selector
+R1
+Z330 I12eZ^[2YhDRidKPMikb1Z0
+Z331 V7O@fUZC_M6IDYYF1hM2;]3
+S1
+R4
+R237
+Z332 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_signal_selector.v
+Z333 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_signal_selector.v
+L0 21
+R8
+r1
+31
+R9
+R10
+Z334 n@d@e2_@q@s@y@s_signal_selector
+Z335 !s100 0Aiz@JCW:IPo4o4<;`[LU0
+Z336 !s105 DE2_QSYS_signal_selector_v_unit
+Z337 !s108 1490918973.919000
+Z338 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_signal_selector.v|
+Z339 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_signal_selector.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_sysid_qsys
+R1
+Z340 IdBNbbL@fR52[fK=ELJ^D20
+Z341 V`elh8^g9EHT<X_20h;e:T0
+S1
+R4
+R237
+Z342 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_sysid_qsys.v
+Z343 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_sysid_qsys.v
+L0 21
+R8
+r1
+31
+R9
+R10
+Z344 n@d@e2_@q@s@y@s_sysid_qsys
+Z345 !s100 ]jB2F?PO5c<@kLnM=IC1c3
+Z346 !s105 DE2_QSYS_sysid_qsys_v_unit
+Z347 !s108 1490918973.479000
+Z348 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_sysid_qsys.v|
+Z349 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_sysid_qsys.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_timer
+R1
+Z350 IVn8f7UNHgh>XdjNn1QTHM1
+Z351 VfjiXkUEB>Nm8QEP;DE;fL0
+S1
+R4
+R148
+Z352 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_timer.v
+Z353 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_timer.v
+L0 21
+R8
+r1
+31
+R9
+R10
+Z354 n@d@e2_@q@s@y@s_timer
+Z355 !s100 R^ea@[QGVm]2<eY<gAU;03
+Z356 !s105 DE2_QSYS_timer_v_unit
+Z357 !s108 1490918973.071000
+Z358 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_timer.v|
+Z359 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_timer.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDE2_QSYS_vga
+R1
+Z360 I^Pc23?baI[]h0U=[Kn>W<3
+Z361 VSGj^<Sk0LUNdfAYf=RB]z2
+S1
+R4
+R148
+Z362 8C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_vga.v
+Z363 FC:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_vga.v
+L0 6
+R8
+r1
+31
+R9
+R10
+Z364 n@d@e2_@q@s@y@s_vga
+Z365 !s100 kaZdV^249zX73c^jS[L8o2
+Z366 !s105 DE2_QSYS_vga_v_unit
+Z367 !s108 1490918966.317000
+Z368 !s107 C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_vga.v|
+Z369 !s90 -reportprogress|300|-sv|-work|DE2_QSYS|+incdir+C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules|C:/CPEN_311/Lab5/DE2_QSYS/synthesis/submodules/DE2_QSYS_vga.v|
+!i10b 1
+!s85 0
+!s101 -O0

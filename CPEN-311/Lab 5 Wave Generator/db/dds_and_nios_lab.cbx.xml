@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="dds_and_nios_lab">
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|DE2_QSYS:U0|DE2_QSYS_cpu:cpu|DE2_QSYS_cpu_mult_cell:the_DE2_QSYS_cpu_mult_cell|altera_mult_add:the_altmult_add_part_2|altera_mult_add_opt2:auto_generated|altera_mult_add_rtl:altera_mult_add_rtl1|ama_multiplier_function:multiplier_block|lpm_mult:Mult0" CBX_FILE_NAME="mult_1s01.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|DE2_QSYS:U0|DE2_QSYS_cpu:cpu|DE2_QSYS_cpu_register_bank_a_module:DE2_QSYS_cpu_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_2vf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|DE2_QSYS:U0|DE2_QSYS_jtag_uart:jtag_uart|DE2_QSYS_jtag_uart_scfifo_w:the_DE2_QSYS_jtag_uart_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|DE2_QSYS:U0|DE2_QSYS_vga:vga|alt_vipitc130_IS2Vid:alt_vip_itc_0|alt_vipitc130_common_fifo:input_fifo|dcfifo:input_fifo" CBX_FILE_NAME="dcfifo_8dk1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|DE2_QSYS:U0|DE2_QSYS_vga:vga|alt_vipvfr130_vfr:alt_vip_vfr_0|alt_vipvfr130_prc:prc|alt_vipvfr130_prc_read_master:read_master|alt_vipvfr130_common_avalon_mm_bursting_master_fifo:master_fifo|alt_vipvfr130_common_general_fifo:cmd_fifo|alt_vipvfr130_common_ram_fifo:\dual_clock_or_large_gen:ram_fifo|altsyncram:ram" CBX_FILE_NAME="altsyncram_gdl1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|DE2_QSYS:U0|DE2_QSYS_cpu:cpu|DE2_QSYS_cpu_mult_cell:the_DE2_QSYS_cpu_mult_cell|altera_mult_add:the_altmult_add_part_1|altera_mult_add_mpt2:auto_generated|altera_mult_add_rtl:altera_mult_add_rtl1|ama_multiplier_function:multiplier_block|lpm_mult:Mult0" CBX_FILE_NAME="mult_1l01.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|DE2_QSYS:U0|DE2_QSYS_cpu:cpu|DE2_QSYS_cpu_mult_cell:the_DE2_QSYS_cpu_mult_cell|altera_mult_add:the_altmult_add_part_2" CBX_FILE_NAME="altera_mult_add_opt2.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|DE2_QSYS:U0|DE2_QSYS_cpu:cpu|lpm_add_sub:Add10" CBX_FILE_NAME="add_sub_8ri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|DE2_QSYS:U0|DE2_QSYS_jtag_uart:jtag_uart|DE2_QSYS_jtag_uart_scfifo_r:the_DE2_QSYS_jtag_uart_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|plot_graph:plot_graph1|sdram1:sdram1_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_qfj1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|Cursor:Cursor_inst|lpm_add_sub:Add7" CBX_FILE_NAME="add_sub_3ri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|DE2_QSYS:U0|DE2_QSYS_cpu:cpu|DE2_QSYS_cpu_ic_data_module:DE2_QSYS_cpu_ic_data|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_qed1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|DE2_QSYS:U0|DE2_QSYS_cpu:cpu|DE2_QSYS_cpu_ic_tag_module:DE2_QSYS_cpu_ic_tag|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_7tg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|DE2_QSYS:U0|DE2_QSYS_cpu:cpu|DE2_QSYS_cpu_nios2_oci:the_DE2_QSYS_cpu_nios2_oci|DE2_QSYS_cpu_nios2_ocimem:the_DE2_QSYS_cpu_nios2_ocimem|DE2_QSYS_cpu_ociram_sp_ram_module:DE2_QSYS_cpu_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_tf71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|DE2_QSYS:U0|DE2_QSYS_cpu:cpu|DE2_QSYS_cpu_register_bank_b_module:DE2_QSYS_cpu_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_3vf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|plot_graph:plot_graph2|sdram1:sdram1_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_qfj1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|Cursor:Cursor_inst|lpm_add_sub:Add4" CBX_FILE_NAME="add_sub_3ri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|DE2_QSYS:U0|DE2_QSYS_cpu:cpu|DE2_QSYS_cpu_bht_module:DE2_QSYS_cpu_bht|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_2hg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|DE2_QSYS:U0|DE2_QSYS_cpu:cpu|DE2_QSYS_cpu_mult_cell:the_DE2_QSYS_cpu_mult_cell|altera_mult_add:the_altmult_add_part_1" CBX_FILE_NAME="altera_mult_add_mpt2.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_and_nios_lab|DE2_QSYS:U0|DE2_QSYS_vga:vga|alt_vipvfr130_vfr:alt_vip_vfr_0|alt_vipvfr130_prc:prc|alt_vipvfr130_prc_read_master:read_master|alt_vipvfr130_common_avalon_mm_bursting_master_fifo:master_fifo|alt_vipvfr130_common_general_fifo:\read_used_gen_gen:rdata_fifo|alt_vipvfr130_common_ram_fifo:\dual_clock_or_large_gen:ram_fifo|altsyncram:ram" CBX_FILE_NAME="altsyncram_6hl1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

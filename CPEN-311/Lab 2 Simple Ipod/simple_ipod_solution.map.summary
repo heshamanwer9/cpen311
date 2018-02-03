@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Feb 28 18:11:47 2017
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : simple_ipod_solution
+Top-level Entity Name : simple_ipod_solution
+Family : Cyclone II
+Total logic elements : 5,765
+    Total combinational functions : 5,566
+    Dedicated logic registers : 2,732
+Total registers : 2732
+Total pins : 317
+Total virtual pins : 0
+Total memory bits : 18,432
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

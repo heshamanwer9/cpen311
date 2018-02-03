@@ -1,0 +1,27 @@
+module wave_selector( clk, mod_select, sig_select, ask, fsk, bpsk, lfsr, sin, cos, saw, squ, mod_out, sig_out );
+
+input clk, lfsr;
+input [1:0] mod_select, sig_select;
+input [11:0] ask, fsk, bpsk, sin, cos, saw, squ;
+output [11:0] mod_out, sig_out;
+
+always@(*) begin
+	case(mod_select) 
+		2'b00: mod_out <= ask;
+		2'b01: mod_out <= fsk;
+		2'b10: mod_out <= bpsk;
+		2'b11: begin
+			if(lfsr_bit == 1'b0) mod_out <= 11'b11111111111; //???
+			else mod_out <= 11'b0;
+		end
+		default: mod_out <= 12'b0;
+	endcase
+	
+	case(sig_select) 
+		2'b00: sig_out <= sin_out;
+		2'b01: sig_out <= cos_out;
+		2'b10: sig_out <= saw_out;
+		2'b11: sig_out <= squ_out;
+		default: sig_out <= 12'b0;
+	endcase
+end
